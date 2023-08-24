@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+</head>
+<body>
+    <header></header>
+    
+
+        <h1><center>Swarnika Singh</center></h1>
+        <center><img src="profile.jpeg" width="200" height="142" alt="Swarnika's Profile Picture"></center>
+    </header>
+
+    <main>
+        <section>
+            <h2><center>About Me</center></h2>
+            <p>
+                Hello!<strong> I'm Swarnika Singh </strong>, a passionate web developer with experience in <em>HTML, CSS, and JavaScript.</em>
+                I love creating user-friendly and visually appealing websites. Currently, I am exploring new
+                technologies to enhance my skills and create more exciting projects.
+            </p>
+            <br>
+            <br>
+            <audio controls>
+               <source src="Style.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+            <br>
+            <br>
+            <video width="640" height="360" controls>
+                <source src="trailer.mp4" width = "300" height = "150" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Personal Details</h2>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td>Swarnika Singh</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><a href="2021.swarnika.singh@ves.ac.in">2021.swarnika.singh@ves.ac.in</a></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td>8433634222</td>
+                </tr>
+                <tr>
+                    <td>Location:</td>
+                    <td>Thane, Mumbai</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Skill Sets</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
